@@ -1,0 +1,76 @@
+function Studentlist(){
+    return(
+        <div className="container text-center">
+            <h1>Student</h1><br></br>
+            <table className="table tbls">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Roll No</th>
+                        <th>Class</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Sapna</td>
+                        <td>21</td>
+                        <td>12th</td>
+                        <td>
+                            <button>View</button>
+                            <button>Assigned</button>
+                            <button>Delete</button>
+                            <button>Edit</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Sapna</td>
+                        <td>21</td>
+                        <td>12th</td>
+                        <td>
+                            <button>View</button>
+                            <button>Assigned</button>
+                            <button>Delete</button>
+                            <button>Edit</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Sapna</td>
+                        <td>21</td>
+                        <td>12th</td>
+                        <td>
+                            <button>View</button>
+                            <button>Assigned</button>
+                            <button>Delete</button>
+                            <button>Edit</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Sapna</td>
+                        <td>21</td>
+                        <td>12th</td>
+                        <td>
+                            <button>View</button>
+                            <button>Assigned</button>
+                            <button>Delete</button>
+                            <button>Edit</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Sapna</td>
+                        <td>21</td>
+                        <td>12th</td>
+                        <td>
+                            <button>View</button>
+                            <button>Assigned</button>
+                            <button>Delete</button>
+                            <button>Edit</button>
+                        </td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+    )
+}
+export default Studentlist;

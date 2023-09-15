@@ -59,7 +59,7 @@ function Homepage(){
                                    
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary">Create new account</button>
+                                        <button type="button" class="btn btn-primary">Create account</button>
                                     </div>
                                     </div>
                                 </div>

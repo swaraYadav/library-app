@@ -19,7 +19,7 @@ function Loginstudent(){
                 </div>
             </div>
         </nav>
-        <div className="table text-center tblh">
+        <div className="table text-center">
            <table className="table">
             <thead>
                 <tr>

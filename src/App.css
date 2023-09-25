@@ -27,4 +27,30 @@
     border: 1px solid grey;
 
 
+}.closebtn button{
+    position: absolute;
+    right: 25px;
+    top:19px;
 }
+.nav-loginname a{
+    color: blue;
+
+}
+.list a{
+    margin-left: 100px;
+}
+.table{
+    width: 100%;
+    text-align: center;
+}
+.log-button a{
+    color: white;
+    text-decoration: none;
+}
+.list a:hover{
+    color:white;
+    background-color: grey;
+    
+
+}
+ 

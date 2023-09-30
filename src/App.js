@@ -7,6 +7,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import Booklist from './component/Booklist';
 import Studentlist from './component/Studentlist';
 import Homepage from './component/Homepage';
+import Assignpage from './component/Assignpage';
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
             <Route path="student" element={<Studentlist/>}></Route>
             <Route path="Booklist" element={<Booklist/>}></Route>
             <Route path="Homepage" element={<Homepage/>}></Route>
+            <Route path ="Assignpage" element={<Assignpage/>}></Route>
           </Routes>
         </BrowserRouter>
     </div>

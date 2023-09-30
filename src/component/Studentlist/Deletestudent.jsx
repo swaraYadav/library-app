@@ -1,9 +1,6 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTrash } from "@fortawesome/free-solid-svg-icons";
-
 function Deletestudent() {
   return (
-    <>
+    <div className="container">
       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
@@ -19,7 +16,7 @@ function Deletestudent() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 export default Deletestudent;

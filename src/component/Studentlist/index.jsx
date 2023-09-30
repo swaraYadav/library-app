@@ -1,9 +1,9 @@
 import LoginHeader from "../LoginHeader";
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPen } from "@fortawesome/free-solid-svg-icons";
 import { faTrash } from "@fortawesome/free-solid-svg-icons";
 import { faEye } from "@fortawesome/free-solid-svg-icons";
+import { faPlus } from "@fortawesome/free-solid-svg-icons";
 import Studentmodel from "./Studentmodel";
 import Deletestudent from "./Deletestudent";
 function Studentlist() {
@@ -18,15 +18,16 @@ function Studentlist() {
 
     ];
     return (
-        <>
+        <div className="container-fluid">
             <LoginHeader />
-            <table className="table">
+            <hr></hr>
+            <table className="table table-responsive">
                 <thead>
                     <tr>
                         <th>Name</th>
                         <th>Roll No</th>
                         <th>Class</th>
-                        <th>Action</th>
+                        <th className="action text-center">Action</th>
                     </tr>
                 </thead>
                 {
@@ -37,15 +38,22 @@ function Studentlist() {
                                     <td>{items.Name}</td>
                                     <td>{items.Rollno}</td>
                                     <td>{items.class}</td>
-                                    <td>
-                                        <button><FontAwesomeIcon icon={faEye} /></button>
-                                        <button>Assign</button>
-                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                            <FontAwesomeIcon icon={faTrash} />
+                                    <td className="action text-center">
+                                        <button type="button" className=" btn"><FontAwesomeIcon icon={faEye} />
+                                            <span className="tooltip-text">View</span>
                                         </button>
-                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#editModal">
+                                        <button type="button" className="btn "><FontAwesomeIcon icon={faPlus} />
+                                            <span className="tooltip-text">Assign</span>
+                                        </button>
+                                        <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#editModal">
                                             <FontAwesomeIcon icon={faPen} />
+                                            <span className="tooltip-text">Edit</span>
                                         </button>
+                                        <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            <FontAwesomeIcon icon={faTrash} />
+                                            <span className="tooltip-text">Delete</span>
+                                        </button>
+
                                     </td>
                                 </tr>
                             </tbody>
@@ -53,9 +61,9 @@ function Studentlist() {
                     })
                 }
             </table>
-            <Studentmodel />
             <Deletestudent />
-        </>
+            <Studentmodel />
+        </div>
     )
 }
 export default Studentlist;

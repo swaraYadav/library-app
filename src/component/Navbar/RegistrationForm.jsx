@@ -7,7 +7,7 @@ function RegistrationForm(){
                 <div class="modal-header">
                     <form>
                         <div className="container-fluid closebtn">
-                            <h4 class="model-v" id="exampleModalLabel">Resigter</h4>
+                        <h4 class="model-v" id="exampleModalLabel">Resigter</h4>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                          </div>
                         <br/>

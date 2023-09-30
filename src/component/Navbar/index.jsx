@@ -12,6 +12,7 @@ function Navbar(){
                     <a class="navbar-brand" href="#">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReYowpSqw9MmIDpFstpD6vW5CtsvEGyUjvig&usqp=CAU"></img>
                     </a>
+                    
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
@@ -22,7 +23,7 @@ function Navbar(){
                             Login
                             </button>
                                 
-                        </div>
+                        </div><br/>
                         <div className="btn-two">
                             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#reg-form-modal">
                             Sign Up
